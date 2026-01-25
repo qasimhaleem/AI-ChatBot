@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { GoogleGenerativeAI } from '@google/generative-ai';
-import { API_EY } from '../../secret';
+
 
 const genAI = new GoogleGenerativeAI(import.meta.env.VITE_GEMINI_KEY);
 const Form = () => {
