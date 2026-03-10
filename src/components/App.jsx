@@ -1,12 +1,14 @@
 import React from 'react'
 import Form from './Form'
-
+import Footer from './Footer'
 const App = () => {
     return (
-        <>
-            <div className='bg-sky-400/50 p-5 m-3 flex justify-center items-center font-semibold text-3xl rounded-lg shadow-lg'>Qasim's Creation</div>
-            <Form />
-        </>
+        <div className="min-h-screen bg-gray-50 flex flex-col font-sans">
+            <main className="flex-1 overflow-hidden flex flex-col">
+                <Form />
+            </main>
+            <Footer />
+        </div>
     )
 }
 export default App
